@@ -268,7 +268,7 @@ li{
 .copy>p{
     margin-left: auto;
 }
-
+/* APLICAÇÃO DE RESPONSIVIDADE */
 @media screen and (max-width: 991px){
 
     body{

@@ -1,3 +1,5 @@
+
+/* CORPO DA PÁGINA */
 body{
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -35,7 +37,7 @@ body{
     font-size: 1.5rem;
     color: #717171;
 }
-
+/* DUAS CLASSES RELACIONADAS DE LOGIN */
 .btn-face-google{
     display: flex;
     justify-content: center;
@@ -93,7 +95,7 @@ a:hover{
     transition: 0.1s;
     display: flex;
 }
-
+/* Mudança cor de botão */
 .face:hover{
     background-color: #7295e1;
 }
@@ -117,6 +119,8 @@ a:hover{
     color: white;
 }
 
+
+/* RESPONSIVIDADE - MARGEM SUPERIOR AUMENTADA PARA 20 % - CENTRALIZA CONTEÚDO - MARGEM DIREITA REMOVIDA - PREEENCHIMENTO REMOVIDO */
 @media only screen and (max-width: 768px) {
     .caixa {
         margin-top: 20%;
@@ -129,6 +133,7 @@ a:hover{
         line-height: 40px;
     }
 
+    /* A IMAGEM DE FUNDO É REMOVIDA E O CONTEUDO É CENTRALIZADO PARA MELHOR APARENCIA EM CONTEUDO MOVEIS */
     body{
         display: flex;
         justify-content: center;
